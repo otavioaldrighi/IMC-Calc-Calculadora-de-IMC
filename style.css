@@ -11,11 +11,15 @@ main{
     align-items: center;
   
   }
+
+body {
+  background-image: url(imagens/bg1.jpg);
+}
   
   .container{
     display: flex;
     flex-direction: column;
-    background: rgb(255,198,0);
+    background: rgb(54, 106, 248);
     width: 400px;
     height: 600px;
     align-items: center;
@@ -43,6 +47,7 @@ main{
     align-items: center;
   }
   .input input {
+    background-color: rgb(4, 55, 196);
     width: 200px;
     height: 50px;
     border-radius: 5px;
@@ -61,7 +66,7 @@ main{
     height: 40px;
     font: bold 1.2rem serif;
     background: #000;
-    color: rgb(255,198,0);
+    color:rgb(54, 106, 248);
     outline: none;
     border-radius: 5px;
     cursor: pointer;
@@ -77,7 +82,7 @@ main{
     font: italic 1.5rem serif;
     box-shadow: 0px 0px 10px black;
     background: #000;
-    color: rgb(255,198,0);
+    color: rgb(54, 106, 248);
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
