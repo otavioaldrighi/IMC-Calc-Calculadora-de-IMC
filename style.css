@@ -13,13 +13,13 @@ main{
   }
 
 body {
-  background-image: url(imagens/bg1.jpg);
+    background: rgb(23, 45, 142);
 }
   
   .container{
     display: flex;
     flex-direction: column;
-    background: rgb(54, 106, 248);
+    background-color: rgb(54, 106, 248);
     width: 400px;
     height: 600px;
     align-items: center;
